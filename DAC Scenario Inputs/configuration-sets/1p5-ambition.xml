@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	
+
+
+	<ComponentSet name="adj_renunconv_oil">
+			
+			<FileSet name="adj_renunconv_oil"> 
+				<Value name = "unconventional_oil">../input/addons/alt_en_supply_curves/en_supply_unoiltrade2300_trial5.xml</Value> 
+				<Value name = "renewable_elec">../input/addons/alt_en_supply_curves/GlobalIntTechBackup_elec.xml</Value> 
+				<Value name = "renewable_elec_shape">../input/addons/alt_en_supply_curves/GlobalIntTechBackup_elec_shape.xml</Value>			
+			</FileSet>
+		
+	</ComponentSet>
+
+
+
+
+	<ComponentSet name="carbon_cap">
+		<FileSet name="1p5_low_os"> 
+				<Value name = "ccap">../input/addons/policy/carbon_cap/carbon_cap_p2_all_regions.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/luc-link/globalUCT_price_adj_1_all_regions.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="1p5_high_os"> 
+				<Value name = "ccap">../input/addons/policy/carbon_cap/carbon_cap_p4_all_regions.xml</Value>
+				<Value name = "luc_price">../input/addons/policy/carbon_cap/luc-link/globalUCT_price_adj_1_all_regions.xml</Value>
+		</FileSet>
+	</ComponentSet>
+
+
+	<ComponentSet name="dac_costs">
+		<FileSet name="dac1_low_regionalized">
+			<Value name = "dac">../input/addons/dac/DAC1_low_cost_regionalized.xml</Value>
+			<Value name = "waste-heat-dac">../input/addons/dac/dac-waste-heat-regionalized.xml</Value>
+		</FileSet>
+
+		<FileSet name="dac1_high_regionalized">
+			<Value name = "dac">../input/addons/dac/DAC1_high_cost_regionalized.xml</Value>
+			<Value name = "waste-heat-dac">../input/addons/dac/dac-waste-heat-regionalized.xml</Value>
+		</FileSet>
+
+
+		<FileSet name="noDAC">
+		</FileSet>
+
+	
+	</ComponentSet>
+
+
+
+</BatchRunner>
+
+
