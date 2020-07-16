@@ -1,0 +1,4 @@
+CO2 prices
+scenario,region,market,1990,2005,2010,2015,2020,2025,2030,2035,2040,2045,2050,2055,2060,2065,2070,2075,2080,2085,2090,2095,2100,Units,
+"constrained_wateradj_renunconv_oilCstorage_defaultdefault_offshore_cost1p5_low_os_p2_co2_only_noDAC,date=2020-17-3T16:24:36-04:00",Global,globalCO2,0.0,0.0,0.0,0.0,0.0,281.311,457.617,820.678,1146.71,1492.96,1682.49,1918.14,2070.14,2218.1,2279.19,2318.25,2373.55,2429.44,2481.13,2555.09,2629.12,1990$/tC,
+"constrained_wateradj_renunconv_oilCstorage_defaultdefault_offshore_cost1p5_low_os_p2_co2_only_noDAC,date=2020-17-3T16:24:36-04:00",Global,globalCO2_LUC,0.0,0.0,0.0,0.0,0.0,8.79097,28.601,76.9386,143.339,233.275,315.466,419.594,517.534,623.84,712.245,796.897,890.08,986.962,1085.49,1197.7,1314.56,1990$/tC,
